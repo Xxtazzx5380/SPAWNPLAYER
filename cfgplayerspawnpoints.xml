@@ -15,13 +15,13 @@
        <generator_params>
             <grid_density>4</grid_density>
    <!-- largeur totale de la grille en mètres -->
-            <grid_width>150</grid_width>
+            <grid_width>40.0</grid_width>
   <!-- hauteur totale de la grille en mètres -->
-            <grid_height>150</grid_height>
+            <grid_height>40.0</grid_height>
    <!-- distance minimale des bâtiments pour un point d'apparition valide -->
-            <min_dist_static>0</min_dist_static>
+            <min_dist_static>0.5</min_dist_static>
    <!-- distance maximale des bâtiments utilisée pour évaluer le point d'apparition valide -->
-            <max_dist_static>2</max_dist_static>
+            <max_dist_static>2.0</max_dist_static>
    <!-- limites de pente du terrain pour un point d'apparition valide -->
             <min_steepness>-45</min_steepness>
             <max_steepness>45</max_steepness>
