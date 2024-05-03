@@ -2,35 +2,44 @@
 <playerspawnpoints>
         <fresh>
         <spawn_params>
+ <!-- utilisé pour évaluer la distance entre le joueur et les infectés en mètres -->
             <min_dist_infected>30.0</min_dist_infected>
             <max_dist_infected>70.0</max_dist_infected>
+<!-- utilisé pour évaluer la distance entre le joueur et les autres joueurs en mètres -->
             <min_dist_player>25.0</min_dist_player>
             <max_dist_player>70.0</max_dist_player>
+ <!-- utilisé pour évaluer la distance du joueur par rapport aux bâtiments en mètres -->
             <min_dist_static>0.5</min_dist_static>
             <max_dist_static>2.0</max_dist_static>
         </spawn_params>
        <generator_params>
             <grid_density>4</grid_density>
+   <!-- largeur totale de la grille en mètres -->
             <grid_width>150</grid_width>
+  <!-- hauteur totale de la grille en mètres -->
             <grid_height>150</grid_height>
+   <!-- distance minimale des bâtiments pour un point d'apparition valide -->
             <min_dist_static>0</min_dist_static>
+   <!-- distance maximale des bâtiments utilisée pour évaluer le point d'apparition valide -->
             <max_dist_static>2</max_dist_static>
+   <!-- limites de pente du terrain pour un point d'apparition valide -->
             <min_steepness>-45</min_steepness>
             <max_steepness>45</max_steepness>
         </generator_params>
         <group_params>
+        <!-- active et désactive cette fonctionnalité (par défaut : true) -->
             <enablegroups>false</enablegroups>
+<!--Active l'utilisation des points d'apparition répertoriés dans des groupes comme points d'apparition réguliers lorsque l'activation des groupes est désactivée (par défaut : true)-->
             <groups_as_regular>false</groups_as_regular>
+  <!-- définit la durée de vie sur un groupe -->
             <lifetime>360</lifetime>
+  <!-- définit le nombre de joueurs qui réinitialiseront le groupe (desactiver = -1) -->
             <counter>-1</counter>
         </group_params>
+   <!-- point d'apparition  -->
         <generator_posbubbles>
                 <pos x="4320.891602" z="2399.313721" />
-                <pos x="4472.7187" z="2280.847" />
-                <pos x="4347.119629" z="2917.295898" />
-                <pos x="4304.191895" z="3294.353027" />
-                <pos x="4474.162598" z="3271.538574" />
-                <pos x="4030.898926" z="3116.196533" />
+                <pos x="4472.7187" z="2280.847" />  
         </generator_posbubbles>
     </fresh>
 </playerspawnpoints>
