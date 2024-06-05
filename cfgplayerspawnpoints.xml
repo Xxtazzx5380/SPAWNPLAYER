@@ -28,7 +28,7 @@
         </generator_params>
         <group_params>
         <!-- active et désactive cette fonctionnalité (par défaut : true) -->
-            <enablegroups>false</enablegroups>
+            <enablegroups>true</enablegroups>
 <!--Active l'utilisation des points d'apparition répertoriés dans des groupes comme points d'apparition réguliers lorsque l'activation des groupes est désactivée (par défaut : true)-->
             <groups_as_regular>false</groups_as_regular>
   <!-- définit la durée de vie sur un groupe -->
@@ -38,8 +38,25 @@
         </group_params>
    <!-- point d'apparition  -->
         <generator_posbubbles>
-                <pos x="4320.891602" z="2399.313721" />
-                <pos x="4472.7187" z="2280.847" />  
+            <group name="spawn01" lifetime="240" counter="-1">
+                <pos x="6063.018555" z="1931.907227" />
+                <pos x="5933.964844" z="2171.072998" />
+                <pos x="6199.782715" z="2241.805176" />
+                <pos x="13552.5654" z="5955.893066" />
+            </group>
+            <group name="spawn02" lifetime="240" counter="-1">
+                <pos x="8040.858398" z="3332.236328" />
+                <pos x="8207.115234" z="3115.650635" />
+                <pos x="7992.118652" z="3188.600342" />
+                <pos x="8380.115234" z="3034.180664" />
+            </group>
+            <group name="spawn03" lifetime="240" counter="-1">
+                <pos x="8747.670898" z="2357.187012" />
+                <pos x="9363.6533" z="2017.953613" />
+                <pos x="9488.868164" z="1898.900269" />
+                <pos x="9675.2216" z="1817.324585" />
+                <pos x="9821.274414" z="2194.003662" />
+            </group>  
         </generator_posbubbles>
     </fresh>
 </playerspawnpoints>
